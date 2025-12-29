@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-meta-datas
+
+info:
+  app:
+    name: Metadata Demo Application
+    description: Spring Boot Complete Metadata Example
+    version: 1.0.0
+    owner: Ram Mohan
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health
